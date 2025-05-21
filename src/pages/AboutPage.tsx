@@ -2,6 +2,7 @@ import { User, MapPin, Briefcase } from 'lucide-react';
 import { aboutMeData } from '../data/mockData';
 import Section from '../components/UI/Section';
 import Button from '../components/UI/Button';
+import ImageTest from '../components/ImageTest';
 
 const AboutPage = () => {
   const handleDownloadResume = () => {
@@ -23,12 +24,16 @@ const AboutPage = () => {
         </p>
       </header>
 
+      <div className="mb-8">
+        <ImageTest />
+      </div>
+
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-1">
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden">
             <div className="h-48 overflow-hidden">
               <img
-                src={aboutMeData.avatarUrl}
+                src={`${import.meta.env.BASE_URL}pictures/my pic.png`}
                 alt={aboutMeData.name}
                 className="w-full h-full object-cover object-center"
               />
