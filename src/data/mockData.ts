@@ -38,7 +38,7 @@ export const projectsData: Project[] = [
     id: '3',
     title: 'AI-Based Industrial Machine Downtime Prediction System',
     description: 'Designed a predictive maintenance web system using IoT sensors to forecast industrial machine downtimes.',
-    imageUrl: 'https://images.pexels.com/photos/3912981/pexels-photo-3912981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: '/portfolio/pictures/machine-prediction.jpg',
     technologies: ['Python', 'Machine Learning', 'IoT', 'Data Science'],
     githubUrl: 'https://github.com/username/machine-prediction'
   },
@@ -54,7 +54,7 @@ export const projectsData: Project[] = [
     id: '6',
     title: 'To-Do List Application',
     description: 'A simple web-based to-do list application that allows users to add, edit, and delete tasks. It uses local storage to save tasks.',
-    imageUrl: 'https://images.pexels.com/photos/3912981/pexels-photo-3912981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: '/portfolio/pictures/todo-list.jpg',
     technologies: ['HTML/CSS', 'JS'],
     githubUrl: 'https://github.com/Akshaya09072004/Blood-Bank-System'
   }
@@ -238,7 +238,7 @@ export const aboutMeData = {
 
   I have experience in both front-end and back-end development, with a particular focus on Python, Java, and web technologies. My recent internships have given me practical experience in data science and web development.`,
   location: 'Chennai, India',
-  avatarUrl: '/portfolio/pictures/my pic.png'
+  avatarUrl: '/portfolio/images/avatar.png'
 };
 
 export const contactData: ContactInfo = {
