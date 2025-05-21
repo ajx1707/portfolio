@@ -30,7 +30,7 @@ export const projectsData: Project[] = [
     id: '5',
     title: 'Movie Recommendation System',
     description: 'Developed a movie review platform featuring user and admin logins with respective operation specifications.',
-    imageUrl: '/portfolio/pictures/movierecommendation.png',
+    imageUrl: '/portfolio/images/movierecommendation.png',
     technologies: ['HTML/CSS', 'JavaScript','Python', 'Machine Learning'],
     githubUrl: 'https://github.com/Akshaya09072004/MOVIE-RECOMMENDATION-ML'
   },
@@ -38,7 +38,7 @@ export const projectsData: Project[] = [
     id: '3',
     title: 'AI-Based Industrial Machine Downtime Prediction System',
     description: 'Designed a predictive maintenance web system using IoT sensors to forecast industrial machine downtimes.',
-    imageUrl: '/portfolio/pictures/machine-prediction.jpg',
+    imageUrl: '/portfolio/images/machine-prediction.jpg',
     technologies: ['Python', 'Machine Learning', 'IoT', 'Data Science'],
     githubUrl: 'https://github.com/username/machine-prediction'
   },
@@ -46,7 +46,7 @@ export const projectsData: Project[] = [
     id: '4',
     title: 'Online Blood Bank System',
     description: 'A web application that allows hospitals and donation centers to access and manage blood stocks efficiently and transparently. The system also provides emergency notifications, data insights',
-    imageUrl: '/portfolio/pictures/bloodbank.png',
+    imageUrl: '/portfolio/images/bloodbank.png',
     technologies: ['HTML/CSS', 'JS'],
     githubUrl: 'https://github.com/Akshaya09072004/Blood-Bank-System'
   },
@@ -54,7 +54,7 @@ export const projectsData: Project[] = [
     id: '6',
     title: 'To-Do List Application',
     description: 'A simple web-based to-do list application that allows users to add, edit, and delete tasks. It uses local storage to save tasks.',
-    imageUrl: '/portfolio/pictures/todo-list.jpg',
+    imageUrl: '/portfolio/images/todo-list.jpg',
     technologies: ['HTML/CSS', 'JS'],
     githubUrl: 'https://github.com/Akshaya09072004/Blood-Bank-System'
   }
@@ -66,7 +66,7 @@ export const certificatesData: Certificate[] = [
     title: 'Presidio Launchpad Workshop',
     issuer: 'Presidio and Meenakshi Sundararajan Engineering College',
     date: '2025-03-24',
-    imageUrl: '/portfolio/pictures/presidio.png',
+    imageUrl: '/portfolio/images/presidio.png',
     verificationUrl: '/portfolio/pictures/presidio launchpad workshop certificate.jpeg'
   },
   {
@@ -74,7 +74,7 @@ export const certificatesData: Certificate[] = [
     title: 'IT Security and Digital Forensics',
     issuer: 'YesPanchi Tech Services Pvt Ltd and Meenakshi Sundararajan Engineering College',
     date: '2025-05-19',
-    imageUrl: '/portfolio/pictures/yespanchi.png',
+    imageUrl: '/portfolio/images/yespanchi.png',
     verificationUrl: '/portfolio/pictures/yespanchicertificate.jpeg'
   },
   {
@@ -82,7 +82,7 @@ export const certificatesData: Certificate[] = [
     title: 'Python for Data Science and Machine Learning Bootcamp',
     issuer: 'Udemy',
     date: '2024-08-24',
-    imageUrl: '/portfolio/pictures/udemy.png',
+    imageUrl: '/portfolio/images/udemy.png',
     verificationUrl: '/portfolio/pictures/python.pdf'
   },
   {
@@ -90,7 +90,7 @@ export const certificatesData: Certificate[] = [
     title: 'The Complete Full-Stack Web Development Bootcamp',
     issuer: 'Udemy',
     date: '2025-04-23',
-    imageUrl: '/portfolio/pictures/udemy.png',
+    imageUrl: '/portfolio/images/udemy.png',
     verificationUrl: '/portfolio/pictures/udemyfullstack.pdf'
   },
   {
@@ -98,7 +98,7 @@ export const certificatesData: Certificate[] = [
     title: ' IT Integration with Generative AI',
     issuer: 'Infosys',
     date: '2024-04-15',
-    imageUrl: '/portfolio/pictures/infosys.png',
+    imageUrl: '/portfolio/images/infosys.png',
     verificationUrl: '/portfolio/pictures/infosyscertificate.pdf'
   },
   {
@@ -106,7 +106,7 @@ export const certificatesData: Certificate[] = [
     title: 'Programming in C',
     issuer: 'NPTEL',
     date: '2024-04-15',
-    imageUrl: '/portfolio/pictures/nptel.png',
+    imageUrl: '/portfolio/images/nptel.png',
     verificationUrl: '/portfolio/pictures/NPTEL C.pdf'
   },
   {
@@ -114,7 +114,7 @@ export const certificatesData: Certificate[] = [
     title: 'Intro To mongoDB',
     issuer: 'MongoDB',
     date: '2024-06-08',
-    imageUrl: '/portfolio/pictures/mongodb.png',
+    imageUrl: '/portfolio/images/mongodb.png',
     verificationUrl: '/portfolio/pictures/mongodb1.pdf'
   },
   {
@@ -122,7 +122,7 @@ export const certificatesData: Certificate[] = [
     title: 'SQL (Intermediate)',
     issuer: 'Hacker Rank',
     date: '2025-05-03',
-    imageUrl: '/portfolio/pictures/hackerrank.png',
+    imageUrl: '/portfolio/images/hackerrank.png',
     verificationUrl: '/portfolio/pictures/sql_intermediate certificate.pdf'
   },
   {
@@ -130,7 +130,7 @@ export const certificatesData: Certificate[] = [
     title: 'CCNA : Intro to Networks',
     issuer: 'Cisco',
     date: '2024-11-21',
-    imageUrl: '/portfolio/pictures/cisco.png',
+    imageUrl: '/portfolio/images/cisco.png',
     verificationUrl: '/portfolio/pictures/CCNA.pdf'
   },
   {
@@ -138,7 +138,7 @@ export const certificatesData: Certificate[] = [
     title: 'Python (Basic)',
     issuer: 'Hacker Rank',
     date: '2024-11-21',
-    imageUrl: '/portfolio/pictures/hackerrank.png',
+    imageUrl: '/portfolio/images/hackerrank.png',
     verificationUrl: '/portfolio/pictures/python_basic certificate.pdf'
   },
   {
@@ -146,7 +146,7 @@ export const certificatesData: Certificate[] = [
     title: 'Java (Basic)',
     issuer: 'Hacker Rank',
     date: '2024-11-21',
-    imageUrl: '/portfolio/pictures/hackerrank.png',
+    imageUrl: '/portfolio/images/hackerrank.png',
     verificationUrl: '/portfolio/pictures/java_basic certificate.pdf'
   }
 ];
@@ -157,14 +157,14 @@ export const achievementsData: Achievement[] = [
     title: 'First Prize in Hackintym 25',
     date: '2023-09-15',
     description: 'Our team Mixed Signals, clinched 1st place at Hackintym 25, a 30-hour hackathon hosted by Meenakshi Sundararajan Engineering College with a cash prize of ₹7,500.',
-    imageUrl: '/portfolio/pictures/hackintym.jpg'
+    imageUrl: '/portfolio/images/hackintym.jpg'
   },
   {
     id: '3',
     title: 'First Prize in Group Discussion',
     date: '2024-09-17',
     description: 'Secured 1st Prize in Group Discussion among more than 100 participants.',
-    imageUrl: '/portfolio/pictures/GD Winner Certificate.jpeg'
+    imageUrl: '/portfolio/images/GD Winner Certificate.jpeg'
   },
   {
     id: '2',
@@ -178,35 +178,35 @@ export const achievementsData: Achievement[] = [
     title: 'E³ Third Prize for Project Presentation',
     date: '2025-03-10',
     description: 'Received third prize in E³ mini project presentation competition and the project was "Online Student Grievance Redressal"',
-    imageUrl: '/portfolio/pictures/E cube 3rd prize 5th sem certificate.jpg'
+    imageUrl: '/portfolio/images/E cube 3rd prize 5th sem certificate.jpg'
   },
   {
     id: '6',
     title: 'E³ Third Prize for Paper Presentation',
     date: '2024-03-15',
     description: 'Received third prize in E³ paper presentation competition and my topic was on "Chatbots".',
-    imageUrl: '/portfolio/pictures/E cube 3rd prize third sem certificate.jpg'
+    imageUrl: '/portfolio/images/E cube 3rd prize third sem certificate.jpg'
   },
   {
     id: '5',
     title: 'School Academic Excellence Award',
     date: '2023-03-15',
     description: 'Achieved first rank in 10th standard at Shri B S Mootha Girls Senior Secondary School by securing 586/600 ,i.e.,97.67% .',
-    imageUrl: '/portfolio/pictures/10th topper.png'
+    imageUrl: '/portfolio/images/10th topper.png'
   },
   {
     id: '7',
     title: 'Full Attendance Award - Semester 3',
     date: '2023-03-15',
     description: 'This achievement shows my punctuality and commitment towards my studies.',
-    imageUrl: '/portfolio/pictures/attendance.png'
+    imageUrl: '/portfolio/images/attendance.png'
   },
   {
     id: '8',
     title: 'Incepta Hackathon',
     date: '2025-03-11',
     description: 'This shows my team collaboration and active participation in technical events',
-    imageUrl: '/portfolio/pictures/incepta.jpeg'
+    imageUrl: '/portfolio/images/incepta.jpeg'
   }
 
 ];

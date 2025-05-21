@@ -5,7 +5,7 @@ import Button from '../components/UI/Button';
 
 const AboutPage = () => {
   const handleDownloadResume = () => {
-    const resumeUrl = '/portfolio/pictures/akshayaresume.pdf';
+    const resumeUrl = '/portfolio/images/akshayaresume.pdf';
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = 'Akshayaresume.pdf';
