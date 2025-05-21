@@ -2,7 +2,6 @@ import { User, MapPin, Briefcase } from 'lucide-react';
 import { aboutMeData } from '../data/mockData';
 import Section from '../components/UI/Section';
 import Button from '../components/UI/Button';
-import ImageTest from '../components/ImageTest';
 
 const AboutPage = () => {
   const handleDownloadResume = () => {
@@ -24,9 +23,6 @@ const AboutPage = () => {
         </p>
       </header>
 
-      <div className="mb-8">
-        <ImageTest />
-      </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-1">
