@@ -5,7 +5,7 @@ import Button from '../components/UI/Button';
 
 const AboutPage = () => {
   const handleDownloadResume = () => {
-    const resumeUrl = 'src/pictures/akshayaresume.pdf';
+    const resumeUrl = './pictures/akshayaresume.pdf';
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = 'Akshayaresume.pdf';
@@ -27,9 +27,9 @@ const AboutPage = () => {
         <div className="lg:col-span-1">
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden">
             <div className="h-48 overflow-hidden">
-              <img 
-                src={aboutMeData.avatarUrl} 
-                alt={aboutMeData.name} 
+              <img
+                src={aboutMeData.avatarUrl}
+                alt={aboutMeData.name}
                 className="w-full h-full object-cover object-center"
               />
             </div>
@@ -45,9 +45,9 @@ const AboutPage = () => {
                 <MapPin size={16} className="mr-2" />
                 <span>{aboutMeData.location}</span>
               </div>
-              
-              <Button 
-                variant="primary" 
+
+              <Button
+                variant="primary"
                 className="w-full"
                 icon={<User size={16} />}
                 onClick={handleDownloadResume}
@@ -79,7 +79,7 @@ const AboutPage = () => {
                 Developing responsive and user-friendly interfaces using HTML, CSS, JavaScript, and modern frameworks like React. Emphasis on clean UI design, mobile responsiveness, and interactive elements to enhance user experience.
                 </p>
               </div>
-              
+
               <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
                   Backend Development
@@ -88,7 +88,7 @@ const AboutPage = () => {
                 Building scalable and efficient server-side applications using Node.js, Express, and MongoDB/MySQL. Experienced in implementing RESTful APIs and role-based authentication systems (e.g., in IPL Ticket Booking System).
                 </p>
               </div>
-              
+
               <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
                   UI/UX Design
@@ -97,7 +97,7 @@ const AboutPage = () => {
                 Creating intuitive layouts and improving user experience through structured web components. Gained hands-on experience in UI/UX during internships and project work such as the Movie Review System and InternPe tasks.
                 </p>
               </div>
-              
+
               <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
                 Data Science & Machine Learning
