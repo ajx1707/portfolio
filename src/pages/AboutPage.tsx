@@ -33,7 +33,7 @@ const AboutPage = () => {
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden">
             <div className="h-48 overflow-hidden">
               <img
-                src={`${import.meta.env.BASE_URL}pictures/my pic.png`}
+                src="/portfolio/images/avatar.png"
                 alt={aboutMeData.name}
                 className="w-full h-full object-cover object-center"
               />
