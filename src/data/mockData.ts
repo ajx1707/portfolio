@@ -67,7 +67,7 @@ export const certificatesData: Certificate[] = [
     issuer: 'Presidio and Meenakshi Sundararajan Engineering College',
     date: '2025-03-24',
     imageUrl: '/portfolio/images/presidio.png',
-    verificationUrl: '/portfolio/pictures/presidio launchpad workshop certificate.jpeg'
+    verificationUrl: '/portfolio/images/presidio launchpad workshop certificate.jpeg'
   },
   {
     id: '9',
@@ -75,7 +75,7 @@ export const certificatesData: Certificate[] = [
     issuer: 'YesPanchi Tech Services Pvt Ltd and Meenakshi Sundararajan Engineering College',
     date: '2025-05-19',
     imageUrl: '/portfolio/images/yespanchi.png',
-    verificationUrl: '/portfolio/pictures/yespanchicertificate.jpeg'
+    verificationUrl: '/portfolio/images/yespanchicertificate.jpeg'
   },
   {
     id: '1',
@@ -83,7 +83,7 @@ export const certificatesData: Certificate[] = [
     issuer: 'Udemy',
     date: '2024-08-24',
     imageUrl: '/portfolio/images/udemy.png',
-    verificationUrl: '/portfolio/pictures/python.pdf'
+    verificationUrl: '/portfolio/images/python.pdf'
   },
   {
     id: '10',
@@ -91,7 +91,7 @@ export const certificatesData: Certificate[] = [
     issuer: 'Udemy',
     date: '2025-04-23',
     imageUrl: '/portfolio/images/udemy.png',
-    verificationUrl: '/portfolio/pictures/udemyfullstack.pdf'
+    verificationUrl: '/portfolio/images/udemyfullstack.pdf'
   },
   {
     id: '2',
@@ -99,7 +99,7 @@ export const certificatesData: Certificate[] = [
     issuer: 'Infosys',
     date: '2024-04-15',
     imageUrl: '/portfolio/images/infosys.png',
-    verificationUrl: '/portfolio/pictures/infosyscertificate.pdf'
+    verificationUrl: '/portfolio/images/infosyscertificate.pdf'
   },
   {
     id: '3',
@@ -107,7 +107,7 @@ export const certificatesData: Certificate[] = [
     issuer: 'NPTEL',
     date: '2024-04-15',
     imageUrl: '/portfolio/images/nptel.png',
-    verificationUrl: '/portfolio/pictures/NPTEL C.pdf'
+    verificationUrl: '/portfolio/images/NPTEL C.pdf'
   },
   {
     id: '4',
@@ -115,7 +115,7 @@ export const certificatesData: Certificate[] = [
     issuer: 'MongoDB',
     date: '2024-06-08',
     imageUrl: '/portfolio/images/mongodb.png',
-    verificationUrl: '/portfolio/pictures/mongodb1.pdf'
+    verificationUrl: '/portfolio/images/mongodb1.pdf'
   },
   {
     id: '6',
@@ -123,7 +123,7 @@ export const certificatesData: Certificate[] = [
     issuer: 'Hacker Rank',
     date: '2025-05-03',
     imageUrl: '/portfolio/images/hackerrank.png',
-    verificationUrl: '/portfolio/pictures/sql_intermediate certificate.pdf'
+    verificationUrl: '/portfolio/images/sql_intermediate certificate.pdf'
   },
   {
     id: '5',
@@ -131,7 +131,7 @@ export const certificatesData: Certificate[] = [
     issuer: 'Cisco',
     date: '2024-11-21',
     imageUrl: '/portfolio/images/cisco.png',
-    verificationUrl: '/portfolio/pictures/CCNA.pdf'
+    verificationUrl: '/portfolio/images/CCNA.pdf'
   },
   {
     id: '7',
@@ -139,7 +139,7 @@ export const certificatesData: Certificate[] = [
     issuer: 'Hacker Rank',
     date: '2024-11-21',
     imageUrl: '/portfolio/images/hackerrank.png',
-    verificationUrl: '/portfolio/pictures/python_basic certificate.pdf'
+    verificationUrl: '/portfolio/images/python_basic certificate.pdf'
   },
   {
     id: '8',
@@ -147,7 +147,7 @@ export const certificatesData: Certificate[] = [
     issuer: 'Hacker Rank',
     date: '2024-11-21',
     imageUrl: '/portfolio/images/hackerrank.png',
-    verificationUrl: '/portfolio/pictures/java_basic certificate.pdf'
+    verificationUrl: '/portfolio/images/java_basic certificate.pdf'
   }
 ];
 
