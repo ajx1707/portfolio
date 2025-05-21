@@ -5,7 +5,7 @@ export const projectsData: Project[] = [
     id: '2',
     title: 'IPL Ticket Booking System Website',
     description: 'IPL Ticket Booking System Website with login for user and admin role specific tasks',
-    imageUrl: '/portfolio/pictures/IPL.png',
+    imageUrl: '/portfolio/images/IPL.png',
     technologies: ['React', 'Vite', 'Docker', 'MySQL Workbench','Postman'],
     githubUrls: [
       {
@@ -22,7 +22,7 @@ export const projectsData: Project[] = [
     id: '1',
     title: 'Student Grievance Management System',
     description: 'Developed a web platform allowing students to submit grievances online, with an option for group complaints.',
-    imageUrl: '/portfolio/pictures/grievance.png',
+    imageUrl: '/portfolio/images/grievance.png',
     technologies: ['HTML/CSS', 'JavaScript'],
     githubUrl: 'https://github.com/Akshaya09072004/Online-Grievance-Redressal'
   },
