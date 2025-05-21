@@ -1,0 +1,29 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.875rem !important; /* 30px */
+  }
+  
+  h2 {
+    font-size: 1.5rem !important; /* 24px */
+  }
+}
